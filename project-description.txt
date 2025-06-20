@@ -1,0 +1,9 @@
+# Project Description
+
+This project is a web scraping toolkit with both Node.js and Python implementations. It includes scripts and configuration for scraping product and book data, as well as integration with Supabase for scheduled HTTP POST requests to update product prices. The workspace contains:
+
+- `web-scraper-node/`: Node.js-based web scraper scripts and data files.
+- `web-scraper-python/`: Python-based web scraper scripts, requirements, and data files.
+- `new.json`: Example SQL/cron configuration for scheduling HTTP POST requests to a Supabase function endpoint, used for updating product prices on a regular schedule.
+
+The project is suitable for automating data collection and periodic updates to a backend service using Supabase's cron and HTTP functions.

@@ -11,6 +11,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "puppeteer": "^22.15.0"
+    "puppeteer": "^22.15.0",
+    "cheerio": "^1.0.0-rc.12",
+    "fs": "^0.0.1-security"
   }
 }
